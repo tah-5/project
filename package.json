@@ -1,0 +1,25 @@
+{
+  "name": "connect-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tah-5/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tah-5/project/issues"
+  },
+  "homepage": "https://github.com/tah-5/project#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7",
+    "nodemon": "^1.19.0"
+  }
+}
