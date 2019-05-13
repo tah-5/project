@@ -10,3 +10,9 @@ https://nodejs.org/en/download/
    (If you are on windows, download git bash from https://git-scm.com/downloads and install it. After that go to your clonned or extracted    directory and right click on it and select "Git Bash Here".
 5. In the Git Bash command line, type "npm install" and wait for the process to complete.
 6. Now type "npm start"
+      
+   ![Capture](https://user-images.githubusercontent.com/50005927/57606566-f4054c00-751d-11e9-8115-522b5dc4adf1.PNG)
+
+   If you get the above highlighted output, then you system has successfully started.
+   
+7. Go to your Browser and type "localhost:5000" to see the system. 
