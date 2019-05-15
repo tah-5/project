@@ -1,6 +1,18 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const passport = require("passport");
 const app = express();
+
+//Initializing Passport
+app.use(passport.initialize());
+
+//Importing Passport
+require("./config/passport")(passport);
+
+//BodyParser Middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 //Importing Cloud MongoDB Key
 const db = require("./config/keys").mongoURI;
